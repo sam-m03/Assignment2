@@ -1,0 +1,30 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+<body class = "about-page">
+<main>
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+      <h1 class="display-6"><%=title %> Me</h1>
+  </div>
+  <div class = "aboutWrapper">
+    <p>I am passionate about understanding how technology connects the world and keeps it 
+        secure. I am driven by curiosity and a dedication to solving complex problems, whether it
+        involves securing networks, protecting data, or troubleshooting issues. With a strong 
+        foundation in network architecture, cybersecurity protocols, and hands-on technical skills, 
+        I am eager to apply what I've learned in real-world scenarios and excited about the opportunities
+        to innovate and safeguard our digital future.</p>  
+</div>
+<div class = "videoDiv">
+    <h2>Introductory Video</h2>
+    <video width="320" height="240" controls id="video" poster="on_record.png">
+    <source src="./Assets/Videos/on_record.mp4" type="video/mp4">
+    <source src="./Assets/Videoson_record.ogv" type="video/ogg">
+    </video>
+    </div>
+
+</main>
+</body>
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
+

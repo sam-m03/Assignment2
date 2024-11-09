@@ -1,0 +1,29 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+<body class = "contact-page">
+<main>
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+      <h1 class="display-6"> <%=title %> Me</h1>
+  </div>
+  <div class = "contactWrapper">
+    <p> Let's connect and share ideas.</p>
+    </div>
+   <div class="contactForm">
+    <form action="mailto:samrot.murugesan@ontariotechu.net" method="post" enctype="text/plain">
+    <p>Name</p>
+    <input type="text" name="name" placeholder="Your Name" required/>
+    <p>Email</p>
+    <input type="email" name="email" placeholder="Your Email" required/>
+    <p>Message</p>
+    <textarea name="message" cols="50" rows="5" required> </textarea>
+   <div class="submitButton">
+    <button class="button" type="submit">Submit</button>
+   </div>
+</div>
+</main>
+</body>
+
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>

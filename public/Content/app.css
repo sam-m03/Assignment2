@@ -1,0 +1,157 @@
+/* custom CSS goes here */
+@charset "UTF-8";
+.index-page {
+    background: linear-gradient(180deg, #3A3959, #262525); 
+    height: 100vh; 
+    
+}
+.index-page h1{
+    text-align: center;
+    font-size:35px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.index-page .container{
+    width:150px;
+    height:75px;
+    padding:15px;
+}
+.index-page .homeWrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+.index-page #bitmoji img {
+    display:block;
+    margin: 50px auto;
+    width:200px;
+    border-radius: 50%;
+}
+
+.about-page {
+    background: linear-gradient(180deg, #3A3959, #262525); 
+    height: 100vh; 
+    
+}
+.about-page h1{
+    text-align: center;
+    font-size:35px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.about-page .aboutWrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.about-page .videoDiv {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-page .videoDiv h2{
+    text-align: center;
+    font-size:35px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.about-page .videoDiv video {
+    width: 100%;
+    max-width: 400px;
+    border: 3px solid #107361;
+    border-radius: 10px;
+}
+
+.projects-page {
+    background: linear-gradient(180deg, #3A3959, #262525); 
+    height: 100vh; 
+}
+.projects-page h1{
+    text-align: center;
+    font-size:35px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.projects-page .projectWrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: left;
+    color: aliceblue;
+}
+
+.contact-page {
+    background: linear-gradient(180deg, #3A3959, #262525); 
+    height: 100vh; 
+}
+.contact-page h1{
+    text-align: center;
+    font-size:35px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.contactForm {
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    
+}
+
+.contactForm p {
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 600;
+    margin: 10px 0 5px 0; /* Reduce space between label and input */
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+
+.contactForm textarea {
+    resize: vertical; 
+}
+
+.contact-page .contactWrapper{
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.submitButton {
+    text-align: center; 
+}
+
+.submitButton .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #3A3959;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submitButton .button:hover {
+    background-color: #262525;
+}
+
